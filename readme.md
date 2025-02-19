@@ -1,6 +1,6 @@
 ## Formulário com validação - Curso DevQuest
 
-Formulário desenvolvido com design fornecido através do Figma, utilizando conhcimentos de HTML, CSS e JS aprendidos até o módulo de JavaScript Intermediário do Curso DevQuest.
+Formulário desenvolvido com design fornecido através do Figma, utilizando conhecimentos de HTML, CSS e JS aprendidos até o módulo de JavaScript Intermediário do Curso DevQuest.
 
 Na primeira imagem temos o layout inicial do formulário, quando a página é carregada.
 
