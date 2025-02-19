@@ -1,0 +1,107 @@
+html {
+    background-image: url(./src/bg-repeat.jpg);
+    background-size: contain;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.texto {
+    color: white;
+    text-align: left;
+    width: 300px;
+    height: 111px;
+}
+
+.texto h1 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+.texto p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17.58px;
+    margin-top: 15px;
+}
+
+.formulario {
+    background-color: white;
+    height: 385px;
+    width: 340px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+#telefone,
+#email,
+#nome {
+    width: 298.01px;
+    height: 35.11px;
+}
+
+#mensagem {
+    width: 298.01px;
+    height: 100px;
+}
+
+.input {
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    width: 298.01px;
+    height: 41.13px;
+    border-radius: 5px;
+    background-color: #3CCC87;
+    border: none;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.formulario p {
+    margin-top: -10px;
+    margin-left: -160px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.mensagemObrigatoria {
+    display: none;
+    font-size: 10px;
+    color: red;
+    margin: -15px;
+    margin-right: 190px;
+    padding-bottom: 8px;
+}
+
+.mensagemMostrar {
+    display: block;
+}
+
+.dados-validos {
+    border: 2px solid green;
+}
+
+.dados-invalidos {
+    border: 2px solid red;
+}
